@@ -9,7 +9,7 @@ function checkAdmission () {
 
   userDate = document.getElementById('input-two').value
   // checks if the date and users age makes them eligible for the discount
-  if ((userDate === 'Tuesday' || userDate === 'Thursday') | |(userAge > 17 || userAge < 21))
+  if ((userDate === 'Tuesday' || userDate === 'Thursday') || (userAge > 17 || userAge < 21))
   {
     document.getElementById('answer').innerHTML = 'You get student pricing.'
   }
