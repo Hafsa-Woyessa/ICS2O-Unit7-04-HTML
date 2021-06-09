@@ -1,4 +1,3 @@
-// this connects the "checkAdmission" button to 
 document.getElementById('button').addEventListener('click', checkAdmission)
 let userAge = 0
 let userDate = 'Friday'
